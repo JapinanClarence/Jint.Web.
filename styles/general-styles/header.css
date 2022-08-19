@@ -204,7 +204,7 @@ nav .right-section{
     nav{
         height: 30px;
     }
-    .right-section{
+    nav .right-section{
         display: flex;
         justify-content: end;
         align-items: center;

@@ -38,3 +38,34 @@ footer .right-section{
     display: flex;
     align-items: flex-end;
 }
+@media(max-width:376px){
+    footer {
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    footer .left-section img{
+        width: 100px;
+    }
+    .address{
+        font-size: 15px;
+    }
+    .contacts-container{
+        font-size: 15px;
+        margin-left: 50px;
+
+    }
+    .logo-container{
+        width: 20px;
+    }
+    .logo-container img{
+        width: 100%;
+    }
+    footer .right-section{
+        font-size: 10px;
+        display: flex;
+        justify-content: start;
+    }
+}

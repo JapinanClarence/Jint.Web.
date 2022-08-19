@@ -135,11 +135,15 @@ span{
         justify-content: start;
         margin-top: 50px;
     }
+    .home-section{
+        margin: 30px 0 50px 0;
+    }
     .website-content-container{
         width: 250px;
         padding: 20px;
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
     }
     .website-content-container .content{
         line-height: 38px;
@@ -176,22 +180,38 @@ span{
     }
     #services{
         color: white;
-        padding: 0 30px 10px 50px;
         background-color: #5656567a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
-    #services div{
-        padding: 20px 10px;
-        text-align: start;
+    #services h3{
+        text-align: center;
+        font-size: 25px;
+        margin: 0 0 10px 0;
     }
-    #services h2{
-        display: block;
-        margin-top: 0;
-        margin-bottom: 5px;
-        font-size: 18px;
+    .services-container{
+        width: 140px;
+        height: 80px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 19px;
     }
-    #services ul{
-        list-style: none;
-        font-size: 12px;
+    .add-icon{
+        width: 20px;
+        
+    }
+    .more-info-container{
         margin: 0;
+    }
+    .more-info-container p{
+        margin: 0 0 30px 0;
+        font-size: 15px;
+        padding: 20px;
+        text-align: center;
     }
 }
