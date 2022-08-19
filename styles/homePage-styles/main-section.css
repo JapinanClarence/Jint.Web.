@@ -184,22 +184,37 @@ span{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         row-gap: 10px;
         margin-top: 0px;
         margin-bottom: 50px;
     }
     #services h3{
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         margin: 0 0 10px 0;
     }
     .services-container{
         width: 140px;
         height: 80px;
+        padding: 0 35px;
         border-radius: 10px;
-        display: flex;
+        display: grid;
+        grid-template-columns: 50px 1fr;
         align-items: center;
         font-size: 19px;
+    }
+    .services-container .icon-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.0);
+        transition: background-color .2s ease-in;
+        cursor: pointer;
     }
     .add-icon{
         width: 20px;

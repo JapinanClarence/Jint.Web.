@@ -203,6 +203,7 @@ nav .right-section{
 @media (max-width: 415px) {
     nav{
         height: 30px;
+        padding: 10px 10px 10px 30px;
     }
     nav .right-section{
         display: flex;
@@ -232,9 +233,11 @@ nav .right-section{
         width:20px;
     }
     .menu{
-        display: inline-block;
-        width: 20px;
-        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15px;
+        height: 15px;
         cursor: pointer;
         padding: 10px;
         border-radius: 50%;
@@ -247,7 +250,7 @@ nav .right-section{
         scale: .95;
     }
     .humburger-icon{
-        width: 100%;
+        width: 140%;
     }
     .buttons-container div{
         display: none;
