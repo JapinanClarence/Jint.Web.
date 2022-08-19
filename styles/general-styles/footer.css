@@ -50,15 +50,18 @@ footer .right-section{
         width: 100px;
     }
     .address{
-        font-size: 15px;
+        font-size: 13px;
     }
     .contacts-container{
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 50px;
-
+        row-gap: 5px;
+    }
+    .contacts-container div{
+        column-gap: 20px;
     }
     .logo-container{
-        width: 20px;
+        width: 18px;
     }
     .logo-container img{
         width: 100%;
