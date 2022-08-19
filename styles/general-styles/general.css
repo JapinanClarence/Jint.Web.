@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: url("../../background/800252.png") center/cover no-repeat;
+}

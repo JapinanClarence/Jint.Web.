@@ -1,0 +1,197 @@
+.home-section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.website-content-container{
+    width: 55%;
+    margin-left: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.website-content-container .content{
+    line-height: 38px;
+    font: 25px Montserrat, 'Calibri', 'Arial';
+    text-align: start;
+    color: white;
+    margin-bottom: 70px;
+}
+.content h2{
+    text-transform: uppercase; 
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.content p{
+    margin: 0;
+}
+.website-content-container .buttons-container{
+    display: inline-block;
+}
+.button-1, 
+.button-2{
+    width: 170px;
+    padding: 15px 0;
+    margin: 10px 10px;
+    border-radius: 30px;
+    font: bold 18px 'Gill Sans';
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background-color: white;
+    height: 100%;
+    width: 0;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.button-1:hover span,
+.button-2:hover span{
+    width: 100%;
+   
+}
+.button-1:hover,
+.button-2:hover {
+    border: none;
+    color: black;
+}
+.button-1:active,
+.button-2:active{
+    scale: .98;
+}
+#services{
+    color: white;
+    padding: 20px;
+    background-color: #5656567a;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    margin-bottom: 130px;
+}
+#services h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.services-container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 150px;
+    padding: 0 30px 0 20px;
+    border-radius: 20px;
+    background-color: #5656567a;
+    font-size: 25px;
+}
+.services-container .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+.services-container .icon-container:hover{
+    background-color:#565656;
+}
+.services-container .icon-container:active{
+    scale: .93;
+}
+.add-icon{
+    width: 30px;
+}
+.more-info-container{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 100px;
+
+}
+.more-info-container p{
+    margin: 0 400px;
+}
+@media (max-width: 376px){
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 50px;
+    }
+    .website-content-container{
+        width: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .website-content-container .content{
+        line-height: 38px;
+        font: 15px Montserrat;
+        text-align: start;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .content h2{
+        text-transform: uppercase; 
+        font-size: 30px;
+    }
+    .content p{
+        margin-bottom: 0;
+    }
+    .buttons-container{
+        display: flex;
+        column-gap: 5px;
+    }
+    .button-1, 
+    .button-2{
+        display: block;
+        width: 100px;
+        padding: 10px 0;
+        margin: 10px 5px;
+        border-radius: 30px;
+        font: bold 11px 'Gill Sans';
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    #services{
+        color: white;
+        padding: 0 30px 10px 50px;
+        background-color: #5656567a;
+    }
+    #services div{
+        padding: 20px 10px;
+        text-align: start;
+    }
+    #services h2{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    #services ul{
+        list-style: none;
+        font-size: 12px;
+        margin: 0;
+    }
+}
