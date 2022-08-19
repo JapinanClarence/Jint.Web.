@@ -200,7 +200,7 @@ nav .right-section{
 }
 
 
-@media (max-width: 376px) {
+@media (max-width: 415px) {
     nav{
         height: 30px;
     }
